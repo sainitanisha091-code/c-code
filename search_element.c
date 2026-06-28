@@ -18,6 +18,6 @@ int main(){
         printf("Found at postion %d", pos);
     }
     else{
-        printf("Not Found");
+        printf("Not found");
     }
 }
