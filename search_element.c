@@ -6,14 +6,16 @@ int main(){
         scanf("%d", &arr[i]);
     }
     int found = 0 ;
+    int pos = -1;
     for (int i = 0 ; i < 5 ; i++){
         if (arr[i]==key){
             found = 1 ;
+            pos = i ;
             break;
         }
     }
     if (found){
-        printf("Found");
+        printf("Found at postion %d", pos);
     }
     else{
         printf("Not Found");
