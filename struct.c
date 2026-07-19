@@ -3,7 +3,7 @@ struct student{
     char name[50];
     int rollNo; 
     float marks[3];
-    float avevragemarks;
+    float averagemarks;
 };
 int main(){
     struct student students[50];
@@ -28,11 +28,11 @@ int main(){
             totalmarks+= students[i].marks[j];
 
         }
-        students[i].avevragemarks = totalmarks/3.0;
+        students[i].averagemarks = totalmarks/3.0;
     }
 
     // print the average marks of the students
     for (i = 0 ; i < n ; i++){
-        printf("%.2f\n", students[i].avevragemarks);
+        printf("%.2f\n", students[i].averagemarks);
     }
 }
