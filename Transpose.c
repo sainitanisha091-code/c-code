@@ -14,7 +14,4 @@ int main(){
         }
         printf("\n");
     }
-
-
-
 }
