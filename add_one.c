@@ -9,7 +9,7 @@ int main()
     while (N--)
     {
         scanf("%d", &n);
-
+        
         int digit;
         int result = 0;
         int place = 1;
