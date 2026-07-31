@@ -6,6 +6,7 @@ void isArmstrong(int n){
     int count = 0 ; 
     int result ; 
     int original  = n ; 
+    
     if (n==0){
         printf("yes"); 
         return ; 
@@ -18,7 +19,7 @@ void isArmstrong(int n){
     n = original; 
     while (n!=0){
         digit = n%10;
-        result = pow(digit, count); 
+        result = (int)(pow(digit, count)+0.5); 
         sum+= result; 
         n = n/10;
     }
