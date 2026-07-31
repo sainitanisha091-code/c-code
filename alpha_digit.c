@@ -10,7 +10,7 @@ int main(){
             alpha++;
         }
         else if (str[i]>'0'&& str[i]<'9'){
-            digit++;
+            digit++; 
         }
         else if (str[i]!='\0'){
             special++;
